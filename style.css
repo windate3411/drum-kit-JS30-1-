@@ -1,0 +1,40 @@
+body {
+  background-image: url('https://upload.cc/i1/2019/05/21/LsQHYB.jpg');
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  bottom:40px;
+}
+
+.key {
+  border: 2px solid black;
+  width: 40px;
+  margin: 6px;
+  text-align: center;
+  transition: all 0.07s;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.playing {
+  transform: scale(1.2);
+  border-color: chocolate;
+  box-shadow:0 0 10px  #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 30px;
+  color: white;
+}
+
+span {
+  color: yellow;
+}
